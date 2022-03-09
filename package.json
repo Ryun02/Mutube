@@ -1,0 +1,27 @@
+{
+  "name": "mutube",
+  "version": "1.0.0",
+  "description": "youtube clone coding with nico",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryun02/Mutube.git"
+  },
+  "author": "Gryun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ryun02/Mutube/issues"
+  },
+  "homepage": "https://github.com/Ryun02/Mutube#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
